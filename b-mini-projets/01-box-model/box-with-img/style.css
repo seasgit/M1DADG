@@ -4,6 +4,7 @@
   margin: 0;
 }
 
+
 section {
   margin: 20px auto 0 auto;
   padding: 30px 0 30px 0;
@@ -11,15 +12,21 @@ section {
   height: auto;
   text-align: center;
   box-shadow: 0 5px 15px #ccc;
+  background-image: url(./images/SVG/dotted-line.svg);
+  background-position: -48px -48px;
+  background-repeat: no-repeat;
 }
 
 h1 {
   font-family: "Lobster", sans-serif;
   font-size: 60px;
+  color:green;
 }
 
 h2 {
   font-family: "Montserrat", sans-serif;
+  color:rgb(1, 52, 1);
+
 }
 
 p {
@@ -28,8 +35,24 @@ p {
 }
 
 a {
+  display: inline-block;
 }
 
 img {
   width: 80%;
+}
+
+.bouton {
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  background-color: green;
+  color:white;
+  padding: 5px 20px 5px 20px;
+  border-radius: 50px;
+  margin-bottom: 50px;
+}
+
+
+.mb-20 {
+    margin-bottom: 20px;
 }
