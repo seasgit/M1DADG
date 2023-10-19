@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family: reey;
+    src: url(./fonts/reey-regular.woff);
+}
+
+/* reset de toutes les marges par défaut */
+* {  margin: 0;  }
+
+/* ici le  body centre l'image  freepik */
+body {
+    text-align: center;
+}
+
+section {
+    width: 400px;
+    height: 400px;
+    /* la section est centrée avec une marge haute de 50px */
+    margin: 50px auto 0 auto;
+    /* dans la section il y a un espace interne en haut de 30px  */
+    padding-top: 30px;
+    /* image de fond */
+    background-image: url(./images/08.png);
+    background-size: cover;
+    /* les titres sont centrés */
+    text-align: center;
+}
+
+h1 {
+    font-family: reey;
+    font-size: 40px;
+    color:orange;
+    /* positionnment pour passer devant le h2 */
+    position: relative;
+}
+
+h2 {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 50px;
+  line-height: 0.9;
+  color:rgb(0, 52, 0)
+}
+

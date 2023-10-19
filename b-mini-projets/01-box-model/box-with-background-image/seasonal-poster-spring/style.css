@@ -1,0 +1,27 @@
+@font-face {
+    font-family: mathlete ;
+    src: url(./fonts/mathlete-bulky.woff);
+}
+
+
+section {
+    width: 400px;
+    height: 600px;
+    /* Aligner la section au centre  */
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(./images/spring-8.png);
+    /* l'image s'adapte au conteneur */
+    background-size: cover;
+    text-align: center;
+}
+
+
+section h1 {
+    padding-top: 60px;
+    font-family: mathlete;
+    font-size: 80px;
+    letter-spacing: 5px;
+    color: rgb(0, 128, 102);
+    font-weight: normal;
+}

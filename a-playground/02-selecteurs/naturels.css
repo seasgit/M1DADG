@@ -1,0 +1,8 @@
+/* tous les p de body */
+p {
+    font-family: sans-serif;
+}
+/* p des section */
+section p{
+    font-size: 30px;
+}

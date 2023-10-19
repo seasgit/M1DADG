@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@400;800&display=swap");
+
+* {
+  margin: 0;
+}
+
+section {
+  margin: 20px auto 0 auto;
+  padding: 30px 0 30px 0;
+  width: 500px;
+  height: auto;
+  text-align: center;
+  box-shadow: 0 5px 15px #ccc;
+}
+
+h1 {
+  font-family: "Lobster", sans-serif;
+  font-size: 60px;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  margin: 0 10% 0 10%;
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+}
+
+img {
+  width: 80%;
+}

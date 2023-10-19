@@ -1,0 +1,19 @@
+
+*{
+    margin: 0;
+}
+
+section {
+    margin: auto;
+    width: 700px;
+    height: 500px;
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+section img {
+    width: 70%;
+}
+
+
+

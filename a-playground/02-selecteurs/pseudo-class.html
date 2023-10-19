@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        /* selecteur naturel */
+        p {
+            font-size: 25px;
+            font-family: sans-serif;
+        }
+        /* pseudo classes */
+        p:nth-of-type(2) {  color:blue;}
+        p:nth-of-type(2n-1) {
+            letter-spacing: 8px;
+        }
+        /* classe */
+        p.alert {color: red }
+        /* au survol du paragraphe qui a la classe alert */
+        p.alert:hover {
+            color:orange
+        }
+
+    </style>
+</head>
+<body>
+    
+    <!-- p*6>lorem5 -->
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p>Corrupti fugit ullam non perspiciatis.</p>
+    <p>Ipsa nobis laborum nam temporibus.</p>
+    <p>Unde aliquam inventore tempore magni.</p>
+    <p class="alert">Consequatur non maxime molestiae ut?</p>
+    <p>Omnis exercitationem quam dignissimos quidem.</p>
+</body>
+</html>

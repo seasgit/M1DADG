@@ -1,0 +1,8 @@
+
+/* selecteur naturel */
+p {
+    font-size: 25px;
+    font-family: sans-serif;
+}
+/* pseudo classes */
+p:nth-of-type(2) {  color:red;}
