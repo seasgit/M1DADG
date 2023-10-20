@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+
+/* reset des marges */
+
+* {
+    margin: 0; 
+    /*  éviter la dilatation due au padding */
+    box-sizing: border-box;
+}
+
+/* section avec un nom de classe */
+.section-shoes {
+    width: 900px;
+    height: 500px;
+    /* raccourci des marges */
+    margin: 50px auto 0 auto;
+    /* arrière plan */
+    background-image: url(./images/fond.png);
+    background-size: cover;
+}
+/* div avec les contenus img et h1 */
+.section-shoes div {
+    /* espace en haut */
+    padding-top: 80px;
+    width: 38%;
+    height: 100%;
+    text-align: right;
+    /* background: #000; */
+}
+
+.section-shoes div img {
+    width: 65%;
+    /* marge basse pour décaler le titre vers le bas */
+    margin-bottom: 200px;
+}
+
+.section-shoes div h1 {
+    color:white;
+    font-family: 'Paytone One', sans-serif;
+    font-size: 33px;
+    line-height: 1.1;
+}
+
+.section-shoes div h1 span {
+    display: block;
+    letter-spacing: 2px;
+}
+
+
+.alert {
+    color:yellow;
+}
